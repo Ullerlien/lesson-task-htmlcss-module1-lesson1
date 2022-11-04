@@ -1,0 +1,89 @@
+@font-face {
+    font-family: "Boots And Spurs";
+    src: url("../fonts/BootsAndSpurs.ttf") format("truetype");
+  }
+
+
+
+
+
+  body {
+    font-family: "Roboto", Arial, Helvetica, sans-serif;
+}
+
+
+
+header {
+    background-color: rgb(63, 62, 62);
+}
+
+
+.logo {
+    color: #fff;
+}
+
+
+h1, h2, .logo {
+    font-family: "Boots And Spurs";
+}
+
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+
+nav li {
+    list-style: none;
+}
+
+
+nav a {
+    color: #fff;
+}
+
+.hero-img {
+    background-image: url("../images/home-header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 70vh;
+}
+
+.cta-button {
+    padding: 15px;
+    background-color: #bb0000;
+    color: #fff;
+    border-radius: 8px;
+}
+
+
+
+.features {
+    margin-left: 20px;
+}
+
+.our-guitars-img {
+    background-image: url("../images/home-info.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+    max-width: 100vh;
+    background-position-x: right;
+    background-position-y: top;
+    border-radius: 50px;
+}
+
+
+.bob img , .sally img {
+    border-radius: 50%;
+}
+
+
+
+
+.product-spotlight img {
+    max-width: 100%;
+}
